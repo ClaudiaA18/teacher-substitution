@@ -1,0 +1,528 @@
+{
+ "instance": "RO-toy-2cls",
+ "solver": "cp-sat",
+ "status": "OPTIMAL",
+ "time_s": 0.13,
+ "objective": 2.0,
+ "bound": 2.0,
+ "seed": 42,
+ "time_limit": 60,
+ "metrics": {
+  "hard_violations": 0,
+  "hard": {},
+  "soft": {
+   "student_gap": 0,
+   "teacher_gap": 0,
+   "same_subject_same_day": 0,
+   "day_imbalance": 2,
+   "hard_subject_late": 0
+  },
+  "penalty": 2
+ },
+ "entries": [
+  {
+   "lesson": "9A-CHI",
+   "subject": "CHI",
+   "teacher": "T09",
+   "day": 0,
+   "period": 0,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-MAT",
+   "subject": "MAT",
+   "teacher": "T02",
+   "day": 0,
+   "period": 0,
+   "room": "R2"
+  },
+  {
+   "lesson": "9A-MAT",
+   "subject": "MAT",
+   "teacher": "T02",
+   "day": 0,
+   "period": 1,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-IST",
+   "subject": "IST",
+   "teacher": "T11",
+   "day": 0,
+   "period": 1,
+   "room": "R2"
+  },
+  {
+   "lesson": "9A-ROM",
+   "subject": "ROM",
+   "teacher": "T01",
+   "day": 0,
+   "period": 2,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-EFS",
+   "subject": "EFS",
+   "teacher": "T15",
+   "day": 0,
+   "period": 2,
+   "room": "GYM"
+  },
+  {
+   "lesson": "9B-ROM",
+   "subject": "ROM",
+   "teacher": "T01",
+   "day": 0,
+   "period": 3,
+   "room": "R1"
+  },
+  {
+   "lesson": "9A-INFO-G1",
+   "subject": "INFO",
+   "teacher": "T06",
+   "day": 0,
+   "period": 3,
+   "room": "LINF1"
+  },
+  {
+   "lesson": "9A-INFO-G2",
+   "subject": "INFO",
+   "teacher": "T07",
+   "day": 0,
+   "period": 3,
+   "room": "LINF2"
+  },
+  {
+   "lesson": "9B-ENG",
+   "subject": "ENG",
+   "teacher": "T03",
+   "day": 0,
+   "period": 4,
+   "room": "R1"
+  },
+  {
+   "lesson": "9A-FR",
+   "subject": "FR",
+   "teacher": "T04",
+   "day": 0,
+   "period": 4,
+   "room": "R2"
+  },
+  {
+   "lesson": "9A-DE",
+   "subject": "DE",
+   "teacher": "T05",
+   "day": 0,
+   "period": 4,
+   "room": "R3"
+  },
+  {
+   "lesson": "9A-EFS",
+   "subject": "EFS",
+   "teacher": "T15",
+   "day": 1,
+   "period": 0,
+   "room": "GYM"
+  },
+  {
+   "lesson": "9B-CHI",
+   "subject": "CHI",
+   "teacher": "T09",
+   "day": 1,
+   "period": 0,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-ENG",
+   "subject": "ENG",
+   "teacher": "T03",
+   "day": 1,
+   "period": 1,
+   "room": "R1"
+  },
+  {
+   "lesson": "9A-INFO-G1",
+   "subject": "INFO",
+   "teacher": "T06",
+   "day": 1,
+   "period": 1,
+   "room": "LINF1"
+  },
+  {
+   "lesson": "9A-INFO-G2",
+   "subject": "INFO",
+   "teacher": "T07",
+   "day": 1,
+   "period": 1,
+   "room": "LINF2"
+  },
+  {
+   "lesson": "9A-MAT",
+   "subject": "MAT",
+   "teacher": "T02",
+   "day": 1,
+   "period": 2,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-IST",
+   "subject": "IST",
+   "teacher": "T11",
+   "day": 1,
+   "period": 2,
+   "room": "R2"
+  },
+  {
+   "lesson": "9A-IST",
+   "subject": "IST",
+   "teacher": "T11",
+   "day": 1,
+   "period": 3,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-FIZ",
+   "subject": "FIZ",
+   "teacher": "T08",
+   "day": 1,
+   "period": 3,
+   "room": "R2"
+  },
+  {
+   "lesson": "9A-ROM",
+   "subject": "ROM",
+   "teacher": "T01",
+   "day": 1,
+   "period": 4,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-GEO",
+   "subject": "GEO",
+   "teacher": "T11",
+   "day": 1,
+   "period": 4,
+   "room": "R2"
+  },
+  {
+   "lesson": "9A-FIZ",
+   "subject": "FIZ",
+   "teacher": "T08",
+   "day": 2,
+   "period": 0,
+   "room": "R1"
+  },
+  {
+   "lesson": "9A-EFS",
+   "subject": "EFS",
+   "teacher": "T15",
+   "day": 2,
+   "period": 1,
+   "room": "GYM"
+  },
+  {
+   "lesson": "9B-MAT",
+   "subject": "MAT",
+   "teacher": "T02",
+   "day": 2,
+   "period": 1,
+   "room": "R1"
+  },
+  {
+   "lesson": "9A-MAT",
+   "subject": "MAT",
+   "teacher": "T02",
+   "day": 2,
+   "period": 2,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-CHI",
+   "subject": "CHI",
+   "teacher": "T09",
+   "day": 2,
+   "period": 2,
+   "room": "R2"
+  },
+  {
+   "lesson": "9A-REL-ORT",
+   "subject": "REL",
+   "teacher": "T12",
+   "day": 2,
+   "period": 3,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-REL-ORT",
+   "subject": "REL",
+   "teacher": "T14",
+   "day": 2,
+   "period": 3,
+   "room": "R2"
+  },
+  {
+   "lesson": "9AB-REL-CAT",
+   "subject": "REL",
+   "teacher": "T13",
+   "day": 2,
+   "period": 3,
+   "room": "R3"
+  },
+  {
+   "lesson": "9A-ENG",
+   "subject": "ENG",
+   "teacher": "T03",
+   "day": 2,
+   "period": 4,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-ROM",
+   "subject": "ROM",
+   "teacher": "T01",
+   "day": 2,
+   "period": 4,
+   "room": "R2"
+  },
+  {
+   "lesson": "9A-ROM",
+   "subject": "ROM",
+   "teacher": "T01",
+   "day": 2,
+   "period": 5,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-BIO",
+   "subject": "BIO",
+   "teacher": "T10",
+   "day": 2,
+   "period": 5,
+   "room": "LBIO"
+  },
+  {
+   "lesson": "9A-GEO",
+   "subject": "GEO",
+   "teacher": "T11",
+   "day": 3,
+   "period": 0,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-BIO",
+   "subject": "BIO",
+   "teacher": "T10",
+   "day": 3,
+   "period": 0,
+   "room": "LBIO"
+  },
+  {
+   "lesson": "9A-FIZ",
+   "subject": "FIZ",
+   "teacher": "T08",
+   "day": 3,
+   "period": 1,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-CHI",
+   "subject": "CHI",
+   "teacher": "T09",
+   "day": 3,
+   "period": 1,
+   "room": "R2"
+  },
+  {
+   "lesson": "9A-MAT",
+   "subject": "MAT",
+   "teacher": "T02",
+   "day": 3,
+   "period": 2,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-EFS",
+   "subject": "EFS",
+   "teacher": "T15",
+   "day": 3,
+   "period": 2,
+   "room": "GYM"
+  },
+  {
+   "lesson": "9A-ROM",
+   "subject": "ROM",
+   "teacher": "T01",
+   "day": 3,
+   "period": 3,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-MAT",
+   "subject": "MAT",
+   "teacher": "T02",
+   "day": 3,
+   "period": 3,
+   "room": "R2"
+  },
+  {
+   "lesson": "9A-ENG",
+   "subject": "ENG",
+   "teacher": "T03",
+   "day": 3,
+   "period": 4,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-ROM",
+   "subject": "ROM",
+   "teacher": "T01",
+   "day": 3,
+   "period": 4,
+   "room": "R2"
+  },
+  {
+   "lesson": "9A-INFO-G1",
+   "subject": "INFO",
+   "teacher": "T06",
+   "day": 3,
+   "period": 5,
+   "room": "LINF1"
+  },
+  {
+   "lesson": "9A-INFO-G2",
+   "subject": "INFO",
+   "teacher": "T07",
+   "day": 3,
+   "period": 5,
+   "room": "LINF2"
+  },
+  {
+   "lesson": "9B-DE",
+   "subject": "DE",
+   "teacher": "T05",
+   "day": 3,
+   "period": 5,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-FR",
+   "subject": "FR",
+   "teacher": "T04",
+   "day": 3,
+   "period": 5,
+   "room": "R2"
+  },
+  {
+   "lesson": "9B-FIZ",
+   "subject": "FIZ",
+   "teacher": "T08",
+   "day": 4,
+   "period": 1,
+   "room": "R1"
+  },
+  {
+   "lesson": "9A-FR",
+   "subject": "FR",
+   "teacher": "T04",
+   "day": 4,
+   "period": 1,
+   "room": "R2"
+  },
+  {
+   "lesson": "9A-DE",
+   "subject": "DE",
+   "teacher": "T05",
+   "day": 4,
+   "period": 1,
+   "room": "R3"
+  },
+  {
+   "lesson": "9A-CHI",
+   "subject": "CHI",
+   "teacher": "T09",
+   "day": 4,
+   "period": 2,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-DE",
+   "subject": "DE",
+   "teacher": "T05",
+   "day": 4,
+   "period": 2,
+   "room": "R2"
+  },
+  {
+   "lesson": "9B-FR",
+   "subject": "FR",
+   "teacher": "T04",
+   "day": 4,
+   "period": 2,
+   "room": "R3"
+  },
+  {
+   "lesson": "9A-IST",
+   "subject": "IST",
+   "teacher": "T11",
+   "day": 4,
+   "period": 3,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-TIC-G1",
+   "subject": "TIC",
+   "teacher": "T06",
+   "day": 4,
+   "period": 3,
+   "room": "LINF1"
+  },
+  {
+   "lesson": "9B-TIC-G2",
+   "subject": "TIC",
+   "teacher": "T07",
+   "day": 4,
+   "period": 3,
+   "room": "LINF2"
+  },
+  {
+   "lesson": "9B-BIO",
+   "subject": "BIO",
+   "teacher": "T10",
+   "day": 4,
+   "period": 4,
+   "room": "LBIO"
+  },
+  {
+   "lesson": "9A-INFO-G1",
+   "subject": "INFO",
+   "teacher": "T06",
+   "day": 4,
+   "period": 4,
+   "room": "LINF1"
+  },
+  {
+   "lesson": "9A-INFO-G2",
+   "subject": "INFO",
+   "teacher": "T07",
+   "day": 4,
+   "period": 4,
+   "room": "LINF2"
+  },
+  {
+   "lesson": "9A-BIO",
+   "subject": "BIO",
+   "teacher": "T10",
+   "day": 4,
+   "period": 5,
+   "room": "R1"
+  },
+  {
+   "lesson": "9B-ROM",
+   "subject": "ROM",
+   "teacher": "T01",
+   "day": 4,
+   "period": 5,
+   "room": "R2"
+  }
+ ]
+}

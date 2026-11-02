@@ -1,0 +1,11 @@
+ortools
+scipy
+pandas
+sqlalchemy
+psycopg2-binary
+streamlit
+scikit-learn
+lightgbm
+xgboost
+statsmodels
+prophet

@@ -1,0 +1,25 @@
+{
+  "title": "Every Lesson Covered, but by Whom? Code and data for fair teacher substitution in high schools",
+  "upload_type": "software",
+  "description": "Code, instances and raw results for the paper 'Every Lesson Covered, but by Whom? Fair Teacher Substitution in High Schools with Constraint Programming'. Includes a CP-SAT model for high-school timetables with parallel group blocks, three methods for the daily assignment of substitute teachers, absence scenarios calibrated on open data from England and adapted to Romanian rules, and a Streamlit application.",
+  "creators": [
+    {
+      "name": "Gîrniță, Alexandra-Claudia",
+      "affiliation": "National University of Science and Technology POLITEHNICA Bucharest"
+    },
+    {
+      "name": "Mihai, Petruța",
+      "affiliation": "National University of Science and Technology POLITEHNICA Bucharest",
+      "orcid": "0009-0003-9172-3027"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "teacher substitution",
+    "high-school timetabling",
+    "constraint programming",
+    "CP-SAT",
+    "absence forecasting",
+    "educational management"
+  ]
+}

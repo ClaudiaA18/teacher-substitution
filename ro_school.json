@@ -1,0 +1,4396 @@
+{
+ "meta": {
+  "name": "RO-school-12cls",
+  "description": "Generated Romanian theoretical high school (hours approximate plan-cadru)",
+  "anonymized": true,
+  "format_version": "1.0",
+  "seed": 7
+ },
+ "calendar": {
+  "days": [
+   "Lu",
+   "Ma",
+   "Mi",
+   "Jo",
+   "Vi"
+  ],
+  "periods_per_day": 7,
+  "period_labels": [
+   "08-09",
+   "09-10",
+   "10-11",
+   "11-12",
+   "12-13",
+   "13-14",
+   "14-15"
+  ]
+ },
+ "subjects": [
+  {
+   "id": "ROM",
+   "name": "Limba si literatura romana",
+   "difficulty": 2
+  },
+  {
+   "id": "MAT",
+   "name": "Matematica",
+   "difficulty": 3
+  },
+  {
+   "id": "ENG",
+   "name": "Limba engleza",
+   "difficulty": 1
+  },
+  {
+   "id": "FR",
+   "name": "Limba franceza",
+   "difficulty": 1
+  },
+  {
+   "id": "DE",
+   "name": "Limba germana",
+   "difficulty": 1
+  },
+  {
+   "id": "LAT",
+   "name": "Limba latina",
+   "difficulty": 1
+  },
+  {
+   "id": "INFO",
+   "name": "Informatica",
+   "difficulty": 2
+  },
+  {
+   "id": "TIC",
+   "name": "TIC",
+   "difficulty": 1
+  },
+  {
+   "id": "FIZ",
+   "name": "Fizica",
+   "difficulty": 3
+  },
+  {
+   "id": "CHI",
+   "name": "Chimie",
+   "difficulty": 3
+  },
+  {
+   "id": "BIO",
+   "name": "Biologie",
+   "difficulty": 2
+  },
+  {
+   "id": "IST",
+   "name": "Istorie",
+   "difficulty": 1
+  },
+  {
+   "id": "GEO",
+   "name": "Geografie",
+   "difficulty": 1
+  },
+  {
+   "id": "SOC",
+   "name": "Stiinte socio-umane",
+   "difficulty": 1
+  },
+  {
+   "id": "REL",
+   "name": "Religie",
+   "difficulty": 1
+  },
+  {
+   "id": "EFS",
+   "name": "Educatie fizica",
+   "difficulty": 1
+  },
+  {
+   "id": "ART",
+   "name": "Educatie artistica",
+   "difficulty": 1
+  }
+ ],
+ "room_types": [
+  "standard",
+  "lab_info",
+  "lab_sci",
+  "gym"
+ ],
+ "rooms": [
+  {
+   "id": "R01",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R02",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R03",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R04",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R05",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R06",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R07",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R08",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R09",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R10",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R11",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R12",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R13",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "R14",
+   "type": "standard",
+   "capacity": 32
+  },
+  {
+   "id": "LINF1",
+   "type": "lab_info",
+   "capacity": 16
+  },
+  {
+   "id": "LINF2",
+   "type": "lab_info",
+   "capacity": 16
+  },
+  {
+   "id": "LINF3",
+   "type": "lab_info",
+   "capacity": 16
+  },
+  {
+   "id": "LINF4",
+   "type": "lab_info",
+   "capacity": 16
+  },
+  {
+   "id": "LSCI1",
+   "type": "lab_sci",
+   "capacity": 32
+  },
+  {
+   "id": "LSCI2",
+   "type": "lab_sci",
+   "capacity": 32
+  },
+  {
+   "id": "GYM1",
+   "type": "gym",
+   "capacity": 60
+  }
+ ],
+ "teachers": [
+  {
+   "id": "T01",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "ART"
+   ],
+   "related": []
+  },
+  {
+   "id": "T02",
+   "max_per_day": 7,
+   "unavailable": [
+    {
+     "day": 3,
+     "periods": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   ],
+   "subjects": [
+    "BIO"
+   ],
+   "related": [
+    "CHI",
+    "GEO"
+   ]
+  },
+  {
+   "id": "T03",
+   "max_per_day": 7,
+   "unavailable": [
+    {
+     "day": 3,
+     "periods": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   ],
+   "subjects": [
+    "BIO"
+   ],
+   "related": [
+    "CHI",
+    "GEO"
+   ]
+  },
+  {
+   "id": "T04",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "CHI"
+   ],
+   "related": [
+    "BIO",
+    "FIZ"
+   ]
+  },
+  {
+   "id": "T05",
+   "max_per_day": 7,
+   "unavailable": [
+    {
+     "day": 3,
+     "periods": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   ],
+   "subjects": [
+    "CHI"
+   ],
+   "related": [
+    "BIO",
+    "FIZ"
+   ]
+  },
+  {
+   "id": "T06",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "DE"
+   ],
+   "related": [
+    "ENG"
+   ]
+  },
+  {
+   "id": "T07",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "DE"
+   ],
+   "related": [
+    "ENG"
+   ]
+  },
+  {
+   "id": "T08",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "EFS"
+   ],
+   "related": []
+  },
+  {
+   "id": "T09",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "ENG"
+   ],
+   "related": [
+    "DE",
+    "FR"
+   ]
+  },
+  {
+   "id": "T10",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "ENG"
+   ],
+   "related": [
+    "DE",
+    "FR"
+   ]
+  },
+  {
+   "id": "T11",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "FIZ"
+   ],
+   "related": [
+    "CHI",
+    "MAT"
+   ]
+  },
+  {
+   "id": "T12",
+   "max_per_day": 7,
+   "unavailable": [
+    {
+     "day": 1,
+     "periods": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   ],
+   "subjects": [
+    "FIZ"
+   ],
+   "related": [
+    "CHI",
+    "MAT"
+   ]
+  },
+  {
+   "id": "T13",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "FR"
+   ],
+   "related": [
+    "ENG"
+   ]
+  },
+  {
+   "id": "T14",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "FR"
+   ],
+   "related": [
+    "ENG"
+   ]
+  },
+  {
+   "id": "T15",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "GEO"
+   ],
+   "related": [
+    "BIO",
+    "IST"
+   ]
+  },
+  {
+   "id": "T16",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "INFO",
+    "TIC"
+   ],
+   "related": [
+    "MAT"
+   ]
+  },
+  {
+   "id": "T17",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "INFO",
+    "TIC"
+   ],
+   "related": [
+    "MAT"
+   ]
+  },
+  {
+   "id": "T18",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "INFO",
+    "TIC"
+   ],
+   "related": [
+    "MAT"
+   ]
+  },
+  {
+   "id": "T19",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "INFO",
+    "TIC"
+   ],
+   "related": [
+    "MAT"
+   ]
+  },
+  {
+   "id": "T20",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "IST"
+   ],
+   "related": [
+    "GEO",
+    "SOC"
+   ]
+  },
+  {
+   "id": "T21",
+   "max_per_day": 7,
+   "unavailable": [
+    {
+     "day": 1,
+     "periods": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   ],
+   "subjects": [
+    "IST"
+   ],
+   "related": [
+    "GEO",
+    "SOC"
+   ]
+  },
+  {
+   "id": "T22",
+   "max_per_day": 7,
+   "unavailable": [
+    {
+     "day": 2,
+     "periods": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   ],
+   "subjects": [
+    "LAT"
+   ],
+   "related": [
+    "ROM"
+   ]
+  },
+  {
+   "id": "T23",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "MAT"
+   ],
+   "related": [
+    "FIZ",
+    "INFO"
+   ]
+  },
+  {
+   "id": "T24",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "MAT"
+   ],
+   "related": [
+    "FIZ",
+    "INFO"
+   ]
+  },
+  {
+   "id": "T25",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "REL"
+   ],
+   "related": [
+    "IST",
+    "SOC"
+   ]
+  },
+  {
+   "id": "T26",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "REL"
+   ],
+   "related": [
+    "IST",
+    "SOC"
+   ]
+  },
+  {
+   "id": "T27",
+   "max_per_day": 7,
+   "unavailable": [
+    {
+     "day": 2,
+     "periods": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   ],
+   "subjects": [
+    "REL"
+   ],
+   "related": [
+    "IST",
+    "SOC"
+   ]
+  },
+  {
+   "id": "T28",
+   "max_per_day": 7,
+   "unavailable": [
+    {
+     "day": 0,
+     "periods": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    }
+   ],
+   "subjects": [
+    "REL"
+   ],
+   "related": [
+    "IST",
+    "SOC"
+   ]
+  },
+  {
+   "id": "T29",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "ROM"
+   ],
+   "related": [
+    "LAT"
+   ]
+  },
+  {
+   "id": "T30",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "ROM"
+   ],
+   "related": [
+    "LAT"
+   ]
+  },
+  {
+   "id": "T31",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "ROM"
+   ],
+   "related": [
+    "LAT"
+   ]
+  },
+  {
+   "id": "T32",
+   "max_per_day": 7,
+   "unavailable": [],
+   "subjects": [
+    "SOC"
+   ],
+   "related": [
+    "IST"
+   ]
+  }
+ ],
+ "classes": [
+  {
+   "id": "9A",
+   "profile": "mate-info",
+   "size": 27,
+   "partitions": [
+    {
+     "id": "grp",
+     "groups": [
+      {
+       "id": "G1",
+       "size": 13
+      },
+      {
+       "id": "G2",
+       "size": 14
+      }
+     ]
+    },
+    {
+     "id": "L2",
+     "groups": [
+      {
+       "id": "FR",
+       "size": 11
+      },
+      {
+       "id": "DE",
+       "size": 16
+      }
+     ]
+    },
+    {
+     "id": "rel",
+     "groups": [
+      {
+       "id": "ORT",
+       "size": 24
+      },
+      {
+       "id": "CAT",
+       "size": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "9B",
+   "profile": "stiinte",
+   "size": 30,
+   "partitions": [
+    {
+     "id": "grp",
+     "groups": [
+      {
+       "id": "G1",
+       "size": 15
+      },
+      {
+       "id": "G2",
+       "size": 15
+      }
+     ]
+    },
+    {
+     "id": "L2",
+     "groups": [
+      {
+       "id": "FR",
+       "size": 12
+      },
+      {
+       "id": "DE",
+       "size": 18
+      }
+     ]
+    },
+    {
+     "id": "rel",
+     "groups": [
+      {
+       "id": "ORT",
+       "size": 28
+      },
+      {
+       "id": "CAT",
+       "size": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "9C",
+   "profile": "filologie",
+   "size": 29,
+   "partitions": [
+    {
+     "id": "grp",
+     "groups": [
+      {
+       "id": "G1",
+       "size": 14
+      },
+      {
+       "id": "G2",
+       "size": 15
+      }
+     ]
+    },
+    {
+     "id": "L2",
+     "groups": [
+      {
+       "id": "FR",
+       "size": 11
+      },
+      {
+       "id": "DE",
+       "size": 18
+      }
+     ]
+    },
+    {
+     "id": "rel",
+     "groups": [
+      {
+       "id": "ORT",
+       "size": 26
+      },
+      {
+       "id": "CAT",
+       "size": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10A",
+   "profile": "mate-info",
+   "size": 29,
+   "partitions": [
+    {
+     "id": "grp",
+     "groups": [
+      {
+       "id": "G1",
+       "size": 14
+      },
+      {
+       "id": "G2",
+       "size": 15
+      }
+     ]
+    },
+    {
+     "id": "L2",
+     "groups": [
+      {
+       "id": "FR",
+       "size": 11
+      },
+      {
+       "id": "DE",
+       "size": 18
+      }
+     ]
+    },
+    {
+     "id": "rel",
+     "groups": [
+      {
+       "id": "ORT",
+       "size": 25
+      },
+      {
+       "id": "CAT",
+       "size": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10B",
+   "profile": "stiinte",
+   "size": 26,
+   "partitions": [
+    {
+     "id": "grp",
+     "groups": [
+      {
+       "id": "G1",
+       "size": 13
+      },
+      {
+       "id": "G2",
+       "size": 13
+      }
+     ]
+    },
+    {
+     "id": "L2",
+     "groups": [
+      {
+       "id": "FR",
+       "size": 10
+      },
+      {
+       "id": "DE",
+       "size": 16
+      }
+     ]
+    },
+    {
+     "id": "rel",
+     "groups": [
+      {
+       "id": "ORT",
+       "size": 24
+      },
+      {
+       "id": "CAT",
+       "size": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10C",
+   "profile": "filologie",
+   "size": 28,
+   "partitions": [
+    {
+     "id": "grp",
+     "groups": [
+      {
+       "id": "G1",
+       "size": 14
+      },
+      {
+       "id": "G2",
+       "size": 14
+      }
+     ]
+    },
+    {
+     "id": "L2",
+     "groups": [
+      {
+       "id": "FR",
+       "size": 14
+      },
+      {
+       "id": "DE",
+       "size": 14
+      }
+     ]
+    },
+    {
+     "id": "rel",
+     "groups": [
+      {
+       "id": "ORT",
+       "size": 26
+      },
+      {
+       "id": "CAT",
+       "size": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "11A",
+   "profile": "mate-info",
+   "size": 26,
+   "partitions": [
+    {
+     "id": "grp",
+     "groups": [
+      {
+       "id": "G1",
+       "size": 13
+      },
+      {
+       "id": "G2",
+       "size": 13
+      }
+     ]
+    },
+    {
+     "id": "L2",
+     "groups": [
+      {
+       "id": "FR",
+       "size": 10
+      },
+      {
+       "id": "DE",
+       "size": 16
+      }
+     ]
+    },
+    {
+     "id": "rel",
+     "groups": [
+      {
+       "id": "ORT",
+       "size": 22
+      },
+      {
+       "id": "CAT",
+       "size": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "11B",
+   "profile": "stiinte",
+   "size": 28,
+   "partitions": [
+    {
+     "id": "grp",
+     "groups": [
+      {
+       "id": "G1",
+       "size": 14
+      },
+      {
+       "id": "G2",
+       "size": 14
+      }
+     ]
+    },
+    {
+     "id": "L2",
+     "groups": [
+      {
+       "id": "FR",
+       "size": 11
+      },
+      {
+       "id": "DE",
+       "size": 17
+      }
+     ]
+    },
+    {
+     "id": "rel",
+     "groups": [
+      {
+       "id": "ORT",
+       "size": 24
+      },
+      {
+       "id": "CAT",
+       "size": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "11C",
+   "profile": "filologie",
+   "size": 25,
+   "partitions": [
+    {
+     "id": "grp",
+     "groups": [
+      {
+       "id": "G1",
+       "size": 12
+      },
+      {
+       "id": "G2",
+       "size": 13
+      }
+     ]
+    },
+    {
+     "id": "L2",
+     "groups": [
+      {
+       "id": "FR",
+       "size": 10
+      },
+      {
+       "id": "DE",
+       "size": 15
+      }
+     ]
+    },
+    {
+     "id": "rel",
+     "groups": [
+      {
+       "id": "ORT",
+       "size": 21
+      },
+      {
+       "id": "CAT",
+       "size": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "12A",
+   "profile": "mate-info",
+   "size": 30,
+   "partitions": [
+    {
+     "id": "grp",
+     "groups": [
+      {
+       "id": "G1",
+       "size": 15
+      },
+      {
+       "id": "G2",
+       "size": 15
+      }
+     ]
+    },
+    {
+     "id": "L2",
+     "groups": [
+      {
+       "id": "FR",
+       "size": 16
+      },
+      {
+       "id": "DE",
+       "size": 14
+      }
+     ]
+    },
+    {
+     "id": "rel",
+     "groups": [
+      {
+       "id": "ORT",
+       "size": 28
+      },
+      {
+       "id": "CAT",
+       "size": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "12B",
+   "profile": "stiinte",
+   "size": 29,
+   "partitions": [
+    {
+     "id": "grp",
+     "groups": [
+      {
+       "id": "G1",
+       "size": 14
+      },
+      {
+       "id": "G2",
+       "size": 15
+      }
+     ]
+    },
+    {
+     "id": "L2",
+     "groups": [
+      {
+       "id": "FR",
+       "size": 15
+      },
+      {
+       "id": "DE",
+       "size": 14
+      }
+     ]
+    },
+    {
+     "id": "rel",
+     "groups": [
+      {
+       "id": "ORT",
+       "size": 26
+      },
+      {
+       "id": "CAT",
+       "size": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "12C",
+   "profile": "filologie",
+   "size": 25,
+   "partitions": [
+    {
+     "id": "grp",
+     "groups": [
+      {
+       "id": "G1",
+       "size": 12
+      },
+      {
+       "id": "G2",
+       "size": 13
+      }
+     ]
+    },
+    {
+     "id": "L2",
+     "groups": [
+      {
+       "id": "FR",
+       "size": 10
+      },
+      {
+       "id": "DE",
+       "size": 15
+      }
+     ]
+    },
+    {
+     "id": "rel",
+     "groups": [
+      {
+       "id": "ORT",
+       "size": 23
+      },
+      {
+       "id": "CAT",
+       "size": 2
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "lessons": [
+  {
+   "id": "9A-ROM",
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "9A"
+    }
+   ],
+   "hours": 4,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T30"
+  },
+  {
+   "id": "9A-MAT",
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "9A"
+    }
+   ],
+   "hours": 4,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T23"
+  },
+  {
+   "id": "9A-ENG",
+   "subject": "ENG",
+   "audience": [
+    {
+     "class": "9A"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T10"
+  },
+  {
+   "id": "9A-FR",
+   "subject": "FR",
+   "audience": [
+    {
+     "class": "9A",
+     "partition": "L2",
+     "group": "FR"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T13"
+  },
+  {
+   "id": "9A-DE",
+   "subject": "DE",
+   "audience": [
+    {
+     "class": "9A",
+     "partition": "L2",
+     "group": "DE"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T07"
+  },
+  {
+   "id": "9A-INFO-G1",
+   "subject": "INFO",
+   "audience": [
+    {
+     "class": "9A",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 4,
+   "room_type": "lab_info",
+   "max_per_day": 2,
+   "teacher": "T16"
+  },
+  {
+   "id": "9A-INFO-G2",
+   "subject": "INFO",
+   "audience": [
+    {
+     "class": "9A",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 4,
+   "room_type": "lab_info",
+   "max_per_day": 2,
+   "teacher": "T19"
+  },
+  {
+   "id": "9A-TIC-G1",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "9A",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T17"
+  },
+  {
+   "id": "9A-TIC-G2",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "9A",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T16"
+  },
+  {
+   "id": "9A-FIZ",
+   "subject": "FIZ",
+   "audience": [
+    {
+     "class": "9A"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T11"
+  },
+  {
+   "id": "9A-CHI",
+   "subject": "CHI",
+   "audience": [
+    {
+     "class": "9A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T04"
+  },
+  {
+   "id": "9A-BIO",
+   "subject": "BIO",
+   "audience": [
+    {
+     "class": "9A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T03"
+  },
+  {
+   "id": "9A-IST",
+   "subject": "IST",
+   "audience": [
+    {
+     "class": "9A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T21"
+  },
+  {
+   "id": "9A-GEO",
+   "subject": "GEO",
+   "audience": [
+    {
+     "class": "9A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T15"
+  },
+  {
+   "id": "9A-SOC",
+   "subject": "SOC",
+   "audience": [
+    {
+     "class": "9A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T32"
+  },
+  {
+   "id": "9A-REL-ORT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "9A",
+     "partition": "rel",
+     "group": "ORT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T25"
+  },
+  {
+   "id": "9A-EFS",
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "9A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "gym",
+   "max_per_day": 1,
+   "teacher": "T08"
+  },
+  {
+   "id": "9A-ART",
+   "subject": "ART",
+   "audience": [
+    {
+     "class": "9A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T01"
+  },
+  {
+   "id": "9B-ROM",
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "9B"
+    }
+   ],
+   "hours": 4,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T29"
+  },
+  {
+   "id": "9B-MAT",
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "9B"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T24"
+  },
+  {
+   "id": "9B-ENG",
+   "subject": "ENG",
+   "audience": [
+    {
+     "class": "9B"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T09"
+  },
+  {
+   "id": "9B-FR",
+   "subject": "FR",
+   "audience": [
+    {
+     "class": "9B",
+     "partition": "L2",
+     "group": "FR"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T14"
+  },
+  {
+   "id": "9B-DE",
+   "subject": "DE",
+   "audience": [
+    {
+     "class": "9B",
+     "partition": "L2",
+     "group": "DE"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T06"
+  },
+  {
+   "id": "9B-TIC-G1",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "9B",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T19"
+  },
+  {
+   "id": "9B-TIC-G2",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "9B",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T18"
+  },
+  {
+   "id": "9B-FIZ",
+   "subject": "FIZ",
+   "audience": [
+    {
+     "class": "9B"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T12"
+  },
+  {
+   "id": "9B-CHI",
+   "subject": "CHI",
+   "audience": [
+    {
+     "class": "9B"
+    }
+   ],
+   "hours": 3,
+   "room_type": "lab_sci",
+   "max_per_day": 1,
+   "teacher": "T04"
+  },
+  {
+   "id": "9B-BIO",
+   "subject": "BIO",
+   "audience": [
+    {
+     "class": "9B"
+    }
+   ],
+   "hours": 3,
+   "room_type": "lab_sci",
+   "max_per_day": 1,
+   "teacher": "T02"
+  },
+  {
+   "id": "9B-IST",
+   "subject": "IST",
+   "audience": [
+    {
+     "class": "9B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T20"
+  },
+  {
+   "id": "9B-GEO",
+   "subject": "GEO",
+   "audience": [
+    {
+     "class": "9B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T15"
+  },
+  {
+   "id": "9B-SOC",
+   "subject": "SOC",
+   "audience": [
+    {
+     "class": "9B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T32"
+  },
+  {
+   "id": "9B-REL-ORT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "9B",
+     "partition": "rel",
+     "group": "ORT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T27"
+  },
+  {
+   "id": "9B-EFS",
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "9B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "gym",
+   "max_per_day": 1,
+   "teacher": "T08"
+  },
+  {
+   "id": "9B-ART",
+   "subject": "ART",
+   "audience": [
+    {
+     "class": "9B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T01"
+  },
+  {
+   "id": "9C-ROM",
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "9C"
+    }
+   ],
+   "hours": 5,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T29"
+  },
+  {
+   "id": "9C-MAT",
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "9C"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T23"
+  },
+  {
+   "id": "9C-ENG",
+   "subject": "ENG",
+   "audience": [
+    {
+     "class": "9C"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T10"
+  },
+  {
+   "id": "9C-FR",
+   "subject": "FR",
+   "audience": [
+    {
+     "class": "9C",
+     "partition": "L2",
+     "group": "FR"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T13"
+  },
+  {
+   "id": "9C-DE",
+   "subject": "DE",
+   "audience": [
+    {
+     "class": "9C",
+     "partition": "L2",
+     "group": "DE"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T07"
+  },
+  {
+   "id": "9C-LAT",
+   "subject": "LAT",
+   "audience": [
+    {
+     "class": "9C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T22"
+  },
+  {
+   "id": "9C-TIC-G1",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "9C",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T17"
+  },
+  {
+   "id": "9C-TIC-G2",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "9C",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T16"
+  },
+  {
+   "id": "9C-FIZ",
+   "subject": "FIZ",
+   "audience": [
+    {
+     "class": "9C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T12"
+  },
+  {
+   "id": "9C-CHI",
+   "subject": "CHI",
+   "audience": [
+    {
+     "class": "9C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T05"
+  },
+  {
+   "id": "9C-BIO",
+   "subject": "BIO",
+   "audience": [
+    {
+     "class": "9C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T02"
+  },
+  {
+   "id": "9C-IST",
+   "subject": "IST",
+   "audience": [
+    {
+     "class": "9C"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T20"
+  },
+  {
+   "id": "9C-GEO",
+   "subject": "GEO",
+   "audience": [
+    {
+     "class": "9C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T15"
+  },
+  {
+   "id": "9C-SOC",
+   "subject": "SOC",
+   "audience": [
+    {
+     "class": "9C"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T32"
+  },
+  {
+   "id": "9C-REL-ORT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "9C",
+     "partition": "rel",
+     "group": "ORT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T26"
+  },
+  {
+   "id": "9C-EFS",
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "9C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "gym",
+   "max_per_day": 1,
+   "teacher": "T08"
+  },
+  {
+   "id": "9C-ART",
+   "subject": "ART",
+   "audience": [
+    {
+     "class": "9C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T01"
+  },
+  {
+   "id": "9-REL-CAT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "9A",
+     "partition": "rel",
+     "group": "CAT"
+    },
+    {
+     "class": "9B",
+     "partition": "rel",
+     "group": "CAT"
+    },
+    {
+     "class": "9C",
+     "partition": "rel",
+     "group": "CAT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T28"
+  },
+  {
+   "id": "10A-ROM",
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "10A"
+    }
+   ],
+   "hours": 4,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T29"
+  },
+  {
+   "id": "10A-MAT",
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "10A"
+    }
+   ],
+   "hours": 4,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T24"
+  },
+  {
+   "id": "10A-ENG",
+   "subject": "ENG",
+   "audience": [
+    {
+     "class": "10A"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T09"
+  },
+  {
+   "id": "10A-FR",
+   "subject": "FR",
+   "audience": [
+    {
+     "class": "10A",
+     "partition": "L2",
+     "group": "FR"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T13"
+  },
+  {
+   "id": "10A-DE",
+   "subject": "DE",
+   "audience": [
+    {
+     "class": "10A",
+     "partition": "L2",
+     "group": "DE"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T06"
+  },
+  {
+   "id": "10A-INFO-G1",
+   "subject": "INFO",
+   "audience": [
+    {
+     "class": "10A",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 4,
+   "room_type": "lab_info",
+   "max_per_day": 2,
+   "teacher": "T17"
+  },
+  {
+   "id": "10A-INFO-G2",
+   "subject": "INFO",
+   "audience": [
+    {
+     "class": "10A",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 4,
+   "room_type": "lab_info",
+   "max_per_day": 2,
+   "teacher": "T18"
+  },
+  {
+   "id": "10A-TIC-G1",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "10A",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T18"
+  },
+  {
+   "id": "10A-TIC-G2",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "10A",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T19"
+  },
+  {
+   "id": "10A-FIZ",
+   "subject": "FIZ",
+   "audience": [
+    {
+     "class": "10A"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T12"
+  },
+  {
+   "id": "10A-CHI",
+   "subject": "CHI",
+   "audience": [
+    {
+     "class": "10A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T04"
+  },
+  {
+   "id": "10A-BIO",
+   "subject": "BIO",
+   "audience": [
+    {
+     "class": "10A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T02"
+  },
+  {
+   "id": "10A-IST",
+   "subject": "IST",
+   "audience": [
+    {
+     "class": "10A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T21"
+  },
+  {
+   "id": "10A-GEO",
+   "subject": "GEO",
+   "audience": [
+    {
+     "class": "10A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T15"
+  },
+  {
+   "id": "10A-SOC",
+   "subject": "SOC",
+   "audience": [
+    {
+     "class": "10A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T32"
+  },
+  {
+   "id": "10A-REL-ORT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "10A",
+     "partition": "rel",
+     "group": "ORT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T28"
+  },
+  {
+   "id": "10A-EFS",
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "10A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "gym",
+   "max_per_day": 1,
+   "teacher": "T08"
+  },
+  {
+   "id": "10A-ART",
+   "subject": "ART",
+   "audience": [
+    {
+     "class": "10A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T01"
+  },
+  {
+   "id": "10B-ROM",
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "10B"
+    }
+   ],
+   "hours": 4,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T30"
+  },
+  {
+   "id": "10B-MAT",
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "10B"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T23"
+  },
+  {
+   "id": "10B-ENG",
+   "subject": "ENG",
+   "audience": [
+    {
+     "class": "10B"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T10"
+  },
+  {
+   "id": "10B-FR",
+   "subject": "FR",
+   "audience": [
+    {
+     "class": "10B",
+     "partition": "L2",
+     "group": "FR"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T14"
+  },
+  {
+   "id": "10B-DE",
+   "subject": "DE",
+   "audience": [
+    {
+     "class": "10B",
+     "partition": "L2",
+     "group": "DE"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T07"
+  },
+  {
+   "id": "10B-TIC-G1",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "10B",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T18"
+  },
+  {
+   "id": "10B-TIC-G2",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "10B",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T16"
+  },
+  {
+   "id": "10B-FIZ",
+   "subject": "FIZ",
+   "audience": [
+    {
+     "class": "10B"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T11"
+  },
+  {
+   "id": "10B-CHI",
+   "subject": "CHI",
+   "audience": [
+    {
+     "class": "10B"
+    }
+   ],
+   "hours": 3,
+   "room_type": "lab_sci",
+   "max_per_day": 1,
+   "teacher": "T05"
+  },
+  {
+   "id": "10B-BIO",
+   "subject": "BIO",
+   "audience": [
+    {
+     "class": "10B"
+    }
+   ],
+   "hours": 3,
+   "room_type": "lab_sci",
+   "max_per_day": 1,
+   "teacher": "T03"
+  },
+  {
+   "id": "10B-IST",
+   "subject": "IST",
+   "audience": [
+    {
+     "class": "10B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T20"
+  },
+  {
+   "id": "10B-GEO",
+   "subject": "GEO",
+   "audience": [
+    {
+     "class": "10B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T15"
+  },
+  {
+   "id": "10B-SOC",
+   "subject": "SOC",
+   "audience": [
+    {
+     "class": "10B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T32"
+  },
+  {
+   "id": "10B-REL-ORT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "10B",
+     "partition": "rel",
+     "group": "ORT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T26"
+  },
+  {
+   "id": "10B-EFS",
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "10B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "gym",
+   "max_per_day": 1,
+   "teacher": "T08"
+  },
+  {
+   "id": "10B-ART",
+   "subject": "ART",
+   "audience": [
+    {
+     "class": "10B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T01"
+  },
+  {
+   "id": "10C-ROM",
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "10C"
+    }
+   ],
+   "hours": 5,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T30"
+  },
+  {
+   "id": "10C-MAT",
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "10C"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T24"
+  },
+  {
+   "id": "10C-ENG",
+   "subject": "ENG",
+   "audience": [
+    {
+     "class": "10C"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T09"
+  },
+  {
+   "id": "10C-FR",
+   "subject": "FR",
+   "audience": [
+    {
+     "class": "10C",
+     "partition": "L2",
+     "group": "FR"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T14"
+  },
+  {
+   "id": "10C-DE",
+   "subject": "DE",
+   "audience": [
+    {
+     "class": "10C",
+     "partition": "L2",
+     "group": "DE"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T06"
+  },
+  {
+   "id": "10C-LAT",
+   "subject": "LAT",
+   "audience": [
+    {
+     "class": "10C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T22"
+  },
+  {
+   "id": "10C-TIC-G1",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "10C",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T19"
+  },
+  {
+   "id": "10C-TIC-G2",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "10C",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T17"
+  },
+  {
+   "id": "10C-FIZ",
+   "subject": "FIZ",
+   "audience": [
+    {
+     "class": "10C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T11"
+  },
+  {
+   "id": "10C-CHI",
+   "subject": "CHI",
+   "audience": [
+    {
+     "class": "10C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T05"
+  },
+  {
+   "id": "10C-BIO",
+   "subject": "BIO",
+   "audience": [
+    {
+     "class": "10C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T03"
+  },
+  {
+   "id": "10C-IST",
+   "subject": "IST",
+   "audience": [
+    {
+     "class": "10C"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T21"
+  },
+  {
+   "id": "10C-GEO",
+   "subject": "GEO",
+   "audience": [
+    {
+     "class": "10C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T15"
+  },
+  {
+   "id": "10C-SOC",
+   "subject": "SOC",
+   "audience": [
+    {
+     "class": "10C"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T32"
+  },
+  {
+   "id": "10C-REL-ORT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "10C",
+     "partition": "rel",
+     "group": "ORT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T27"
+  },
+  {
+   "id": "10C-EFS",
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "10C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "gym",
+   "max_per_day": 1,
+   "teacher": "T08"
+  },
+  {
+   "id": "10C-ART",
+   "subject": "ART",
+   "audience": [
+    {
+     "class": "10C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T01"
+  },
+  {
+   "id": "10-REL-CAT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "10A",
+     "partition": "rel",
+     "group": "CAT"
+    },
+    {
+     "class": "10B",
+     "partition": "rel",
+     "group": "CAT"
+    },
+    {
+     "class": "10C",
+     "partition": "rel",
+     "group": "CAT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T25"
+  },
+  {
+   "id": "11A-ROM",
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "11A"
+    }
+   ],
+   "hours": 4,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T31"
+  },
+  {
+   "id": "11A-MAT",
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "11A"
+    }
+   ],
+   "hours": 4,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T24"
+  },
+  {
+   "id": "11A-ENG",
+   "subject": "ENG",
+   "audience": [
+    {
+     "class": "11A"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T10"
+  },
+  {
+   "id": "11A-FR",
+   "subject": "FR",
+   "audience": [
+    {
+     "class": "11A",
+     "partition": "L2",
+     "group": "FR"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T14"
+  },
+  {
+   "id": "11A-DE",
+   "subject": "DE",
+   "audience": [
+    {
+     "class": "11A",
+     "partition": "L2",
+     "group": "DE"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T07"
+  },
+  {
+   "id": "11A-INFO-G1",
+   "subject": "INFO",
+   "audience": [
+    {
+     "class": "11A",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 4,
+   "room_type": "lab_info",
+   "max_per_day": 2,
+   "teacher": "T18"
+  },
+  {
+   "id": "11A-INFO-G2",
+   "subject": "INFO",
+   "audience": [
+    {
+     "class": "11A",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 4,
+   "room_type": "lab_info",
+   "max_per_day": 2,
+   "teacher": "T17"
+  },
+  {
+   "id": "11A-TIC-G1",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "11A",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T17"
+  },
+  {
+   "id": "11A-TIC-G2",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "11A",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T18"
+  },
+  {
+   "id": "11A-FIZ",
+   "subject": "FIZ",
+   "audience": [
+    {
+     "class": "11A"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T11"
+  },
+  {
+   "id": "11A-CHI",
+   "subject": "CHI",
+   "audience": [
+    {
+     "class": "11A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T05"
+  },
+  {
+   "id": "11A-BIO",
+   "subject": "BIO",
+   "audience": [
+    {
+     "class": "11A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T03"
+  },
+  {
+   "id": "11A-IST",
+   "subject": "IST",
+   "audience": [
+    {
+     "class": "11A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T21"
+  },
+  {
+   "id": "11A-GEO",
+   "subject": "GEO",
+   "audience": [
+    {
+     "class": "11A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T15"
+  },
+  {
+   "id": "11A-SOC",
+   "subject": "SOC",
+   "audience": [
+    {
+     "class": "11A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T32"
+  },
+  {
+   "id": "11A-REL-ORT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "11A",
+     "partition": "rel",
+     "group": "ORT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T26"
+  },
+  {
+   "id": "11A-EFS",
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "11A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "gym",
+   "max_per_day": 1,
+   "teacher": "T08"
+  },
+  {
+   "id": "11A-ART",
+   "subject": "ART",
+   "audience": [
+    {
+     "class": "11A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T01"
+  },
+  {
+   "id": "11B-ROM",
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "11B"
+    }
+   ],
+   "hours": 4,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T30"
+  },
+  {
+   "id": "11B-MAT",
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "11B"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T23"
+  },
+  {
+   "id": "11B-ENG",
+   "subject": "ENG",
+   "audience": [
+    {
+     "class": "11B"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T09"
+  },
+  {
+   "id": "11B-FR",
+   "subject": "FR",
+   "audience": [
+    {
+     "class": "11B",
+     "partition": "L2",
+     "group": "FR"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T13"
+  },
+  {
+   "id": "11B-DE",
+   "subject": "DE",
+   "audience": [
+    {
+     "class": "11B",
+     "partition": "L2",
+     "group": "DE"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T06"
+  },
+  {
+   "id": "11B-TIC-G1",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "11B",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T16"
+  },
+  {
+   "id": "11B-TIC-G2",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "11B",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T19"
+  },
+  {
+   "id": "11B-FIZ",
+   "subject": "FIZ",
+   "audience": [
+    {
+     "class": "11B"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T12"
+  },
+  {
+   "id": "11B-CHI",
+   "subject": "CHI",
+   "audience": [
+    {
+     "class": "11B"
+    }
+   ],
+   "hours": 3,
+   "room_type": "lab_sci",
+   "max_per_day": 1,
+   "teacher": "T04"
+  },
+  {
+   "id": "11B-BIO",
+   "subject": "BIO",
+   "audience": [
+    {
+     "class": "11B"
+    }
+   ],
+   "hours": 3,
+   "room_type": "lab_sci",
+   "max_per_day": 1,
+   "teacher": "T03"
+  },
+  {
+   "id": "11B-IST",
+   "subject": "IST",
+   "audience": [
+    {
+     "class": "11B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T20"
+  },
+  {
+   "id": "11B-GEO",
+   "subject": "GEO",
+   "audience": [
+    {
+     "class": "11B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T15"
+  },
+  {
+   "id": "11B-SOC",
+   "subject": "SOC",
+   "audience": [
+    {
+     "class": "11B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T32"
+  },
+  {
+   "id": "11B-REL-ORT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "11B",
+     "partition": "rel",
+     "group": "ORT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T28"
+  },
+  {
+   "id": "11B-EFS",
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "11B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "gym",
+   "max_per_day": 1,
+   "teacher": "T08"
+  },
+  {
+   "id": "11B-ART",
+   "subject": "ART",
+   "audience": [
+    {
+     "class": "11B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T01"
+  },
+  {
+   "id": "11C-ROM",
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "11C"
+    }
+   ],
+   "hours": 5,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T31"
+  },
+  {
+   "id": "11C-MAT",
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "11C"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T24"
+  },
+  {
+   "id": "11C-ENG",
+   "subject": "ENG",
+   "audience": [
+    {
+     "class": "11C"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T09"
+  },
+  {
+   "id": "11C-FR",
+   "subject": "FR",
+   "audience": [
+    {
+     "class": "11C",
+     "partition": "L2",
+     "group": "FR"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T13"
+  },
+  {
+   "id": "11C-DE",
+   "subject": "DE",
+   "audience": [
+    {
+     "class": "11C",
+     "partition": "L2",
+     "group": "DE"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T06"
+  },
+  {
+   "id": "11C-LAT",
+   "subject": "LAT",
+   "audience": [
+    {
+     "class": "11C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T22"
+  },
+  {
+   "id": "11C-TIC-G1",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "11C",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T17"
+  },
+  {
+   "id": "11C-TIC-G2",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "11C",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T18"
+  },
+  {
+   "id": "11C-FIZ",
+   "subject": "FIZ",
+   "audience": [
+    {
+     "class": "11C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T12"
+  },
+  {
+   "id": "11C-CHI",
+   "subject": "CHI",
+   "audience": [
+    {
+     "class": "11C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T04"
+  },
+  {
+   "id": "11C-BIO",
+   "subject": "BIO",
+   "audience": [
+    {
+     "class": "11C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T02"
+  },
+  {
+   "id": "11C-IST",
+   "subject": "IST",
+   "audience": [
+    {
+     "class": "11C"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T20"
+  },
+  {
+   "id": "11C-GEO",
+   "subject": "GEO",
+   "audience": [
+    {
+     "class": "11C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T15"
+  },
+  {
+   "id": "11C-SOC",
+   "subject": "SOC",
+   "audience": [
+    {
+     "class": "11C"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T32"
+  },
+  {
+   "id": "11C-REL-ORT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "11C",
+     "partition": "rel",
+     "group": "ORT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T27"
+  },
+  {
+   "id": "11C-EFS",
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "11C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "gym",
+   "max_per_day": 1,
+   "teacher": "T08"
+  },
+  {
+   "id": "11C-ART",
+   "subject": "ART",
+   "audience": [
+    {
+     "class": "11C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T01"
+  },
+  {
+   "id": "11-REL-CAT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "11A",
+     "partition": "rel",
+     "group": "CAT"
+    },
+    {
+     "class": "11B",
+     "partition": "rel",
+     "group": "CAT"
+    },
+    {
+     "class": "11C",
+     "partition": "rel",
+     "group": "CAT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T25"
+  },
+  {
+   "id": "12A-ROM",
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "12A"
+    }
+   ],
+   "hours": 4,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T29"
+  },
+  {
+   "id": "12A-MAT",
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "12A"
+    }
+   ],
+   "hours": 4,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T23"
+  },
+  {
+   "id": "12A-ENG",
+   "subject": "ENG",
+   "audience": [
+    {
+     "class": "12A"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T09"
+  },
+  {
+   "id": "12A-FR",
+   "subject": "FR",
+   "audience": [
+    {
+     "class": "12A",
+     "partition": "L2",
+     "group": "FR"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T14"
+  },
+  {
+   "id": "12A-DE",
+   "subject": "DE",
+   "audience": [
+    {
+     "class": "12A",
+     "partition": "L2",
+     "group": "DE"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T07"
+  },
+  {
+   "id": "12A-INFO-G1",
+   "subject": "INFO",
+   "audience": [
+    {
+     "class": "12A",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 4,
+   "room_type": "lab_info",
+   "max_per_day": 2,
+   "teacher": "T19"
+  },
+  {
+   "id": "12A-INFO-G2",
+   "subject": "INFO",
+   "audience": [
+    {
+     "class": "12A",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 4,
+   "room_type": "lab_info",
+   "max_per_day": 2,
+   "teacher": "T16"
+  },
+  {
+   "id": "12A-TIC-G1",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "12A",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T19"
+  },
+  {
+   "id": "12A-TIC-G2",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "12A",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T16"
+  },
+  {
+   "id": "12A-FIZ",
+   "subject": "FIZ",
+   "audience": [
+    {
+     "class": "12A"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T12"
+  },
+  {
+   "id": "12A-CHI",
+   "subject": "CHI",
+   "audience": [
+    {
+     "class": "12A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T04"
+  },
+  {
+   "id": "12A-BIO",
+   "subject": "BIO",
+   "audience": [
+    {
+     "class": "12A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T02"
+  },
+  {
+   "id": "12A-IST",
+   "subject": "IST",
+   "audience": [
+    {
+     "class": "12A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T20"
+  },
+  {
+   "id": "12A-GEO",
+   "subject": "GEO",
+   "audience": [
+    {
+     "class": "12A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T15"
+  },
+  {
+   "id": "12A-SOC",
+   "subject": "SOC",
+   "audience": [
+    {
+     "class": "12A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T32"
+  },
+  {
+   "id": "12A-REL-ORT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "12A",
+     "partition": "rel",
+     "group": "ORT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T26"
+  },
+  {
+   "id": "12A-EFS",
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "12A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "gym",
+   "max_per_day": 1,
+   "teacher": "T08"
+  },
+  {
+   "id": "12A-ART",
+   "subject": "ART",
+   "audience": [
+    {
+     "class": "12A"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T01"
+  },
+  {
+   "id": "12B-ROM",
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "12B"
+    }
+   ],
+   "hours": 4,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T31"
+  },
+  {
+   "id": "12B-MAT",
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "12B"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T24"
+  },
+  {
+   "id": "12B-ENG",
+   "subject": "ENG",
+   "audience": [
+    {
+     "class": "12B"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T10"
+  },
+  {
+   "id": "12B-FR",
+   "subject": "FR",
+   "audience": [
+    {
+     "class": "12B",
+     "partition": "L2",
+     "group": "FR"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T13"
+  },
+  {
+   "id": "12B-DE",
+   "subject": "DE",
+   "audience": [
+    {
+     "class": "12B",
+     "partition": "L2",
+     "group": "DE"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T06"
+  },
+  {
+   "id": "12B-TIC-G1",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "12B",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T19"
+  },
+  {
+   "id": "12B-TIC-G2",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "12B",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T17"
+  },
+  {
+   "id": "12B-FIZ",
+   "subject": "FIZ",
+   "audience": [
+    {
+     "class": "12B"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T11"
+  },
+  {
+   "id": "12B-CHI",
+   "subject": "CHI",
+   "audience": [
+    {
+     "class": "12B"
+    }
+   ],
+   "hours": 3,
+   "room_type": "lab_sci",
+   "max_per_day": 1,
+   "teacher": "T05"
+  },
+  {
+   "id": "12B-BIO",
+   "subject": "BIO",
+   "audience": [
+    {
+     "class": "12B"
+    }
+   ],
+   "hours": 3,
+   "room_type": "lab_sci",
+   "max_per_day": 1,
+   "teacher": "T02"
+  },
+  {
+   "id": "12B-IST",
+   "subject": "IST",
+   "audience": [
+    {
+     "class": "12B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T21"
+  },
+  {
+   "id": "12B-GEO",
+   "subject": "GEO",
+   "audience": [
+    {
+     "class": "12B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T15"
+  },
+  {
+   "id": "12B-SOC",
+   "subject": "SOC",
+   "audience": [
+    {
+     "class": "12B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T32"
+  },
+  {
+   "id": "12B-REL-ORT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "12B",
+     "partition": "rel",
+     "group": "ORT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T27"
+  },
+  {
+   "id": "12B-EFS",
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "12B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "gym",
+   "max_per_day": 1,
+   "teacher": "T08"
+  },
+  {
+   "id": "12B-ART",
+   "subject": "ART",
+   "audience": [
+    {
+     "class": "12B"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T01"
+  },
+  {
+   "id": "12C-ROM",
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "12C"
+    }
+   ],
+   "hours": 5,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T31"
+  },
+  {
+   "id": "12C-MAT",
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "12C"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T23"
+  },
+  {
+   "id": "12C-ENG",
+   "subject": "ENG",
+   "audience": [
+    {
+     "class": "12C"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T10"
+  },
+  {
+   "id": "12C-FR",
+   "subject": "FR",
+   "audience": [
+    {
+     "class": "12C",
+     "partition": "L2",
+     "group": "FR"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T14"
+  },
+  {
+   "id": "12C-DE",
+   "subject": "DE",
+   "audience": [
+    {
+     "class": "12C",
+     "partition": "L2",
+     "group": "DE"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T07"
+  },
+  {
+   "id": "12C-LAT",
+   "subject": "LAT",
+   "audience": [
+    {
+     "class": "12C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T22"
+  },
+  {
+   "id": "12C-TIC-G1",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "12C",
+     "partition": "grp",
+     "group": "G1"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T16"
+  },
+  {
+   "id": "12C-TIC-G2",
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "12C",
+     "partition": "grp",
+     "group": "G2"
+    }
+   ],
+   "hours": 1,
+   "room_type": "lab_info",
+   "max_per_day": 1,
+   "teacher": "T18"
+  },
+  {
+   "id": "12C-FIZ",
+   "subject": "FIZ",
+   "audience": [
+    {
+     "class": "12C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T11"
+  },
+  {
+   "id": "12C-CHI",
+   "subject": "CHI",
+   "audience": [
+    {
+     "class": "12C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T05"
+  },
+  {
+   "id": "12C-BIO",
+   "subject": "BIO",
+   "audience": [
+    {
+     "class": "12C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T03"
+  },
+  {
+   "id": "12C-IST",
+   "subject": "IST",
+   "audience": [
+    {
+     "class": "12C"
+    }
+   ],
+   "hours": 3,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T21"
+  },
+  {
+   "id": "12C-GEO",
+   "subject": "GEO",
+   "audience": [
+    {
+     "class": "12C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T15"
+  },
+  {
+   "id": "12C-SOC",
+   "subject": "SOC",
+   "audience": [
+    {
+     "class": "12C"
+    }
+   ],
+   "hours": 2,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T32"
+  },
+  {
+   "id": "12C-REL-ORT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "12C",
+     "partition": "rel",
+     "group": "ORT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T25"
+  },
+  {
+   "id": "12C-EFS",
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "12C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "gym",
+   "max_per_day": 1,
+   "teacher": "T08"
+  },
+  {
+   "id": "12C-ART",
+   "subject": "ART",
+   "audience": [
+    {
+     "class": "12C"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T01"
+  },
+  {
+   "id": "12-REL-CAT",
+   "subject": "REL",
+   "audience": [
+    {
+     "class": "12A",
+     "partition": "rel",
+     "group": "CAT"
+    },
+    {
+     "class": "12B",
+     "partition": "rel",
+     "group": "CAT"
+    },
+    {
+     "class": "12C",
+     "partition": "rel",
+     "group": "CAT"
+    }
+   ],
+   "hours": 1,
+   "room_type": "standard",
+   "max_per_day": 1,
+   "teacher": "T28"
+  }
+ ],
+ "blocks": [
+  {
+   "id": "B-9A-L2",
+   "lessons": [
+    "9A-FR",
+    "9A-DE"
+   ]
+  },
+  {
+   "id": "B-9A-INFO",
+   "lessons": [
+    "9A-INFO-G1",
+    "9A-INFO-G2"
+   ]
+  },
+  {
+   "id": "B-9A-TIC",
+   "lessons": [
+    "9A-TIC-G1",
+    "9A-TIC-G2"
+   ]
+  },
+  {
+   "id": "B-9B-L2",
+   "lessons": [
+    "9B-FR",
+    "9B-DE"
+   ]
+  },
+  {
+   "id": "B-9B-TIC",
+   "lessons": [
+    "9B-TIC-G1",
+    "9B-TIC-G2"
+   ]
+  },
+  {
+   "id": "B-9C-L2",
+   "lessons": [
+    "9C-FR",
+    "9C-DE"
+   ]
+  },
+  {
+   "id": "B-9C-TIC",
+   "lessons": [
+    "9C-TIC-G1",
+    "9C-TIC-G2"
+   ]
+  },
+  {
+   "id": "B-9-REL",
+   "lessons": [
+    "9A-REL-ORT",
+    "9B-REL-ORT",
+    "9C-REL-ORT",
+    "9-REL-CAT"
+   ]
+  },
+  {
+   "id": "B-10A-L2",
+   "lessons": [
+    "10A-FR",
+    "10A-DE"
+   ]
+  },
+  {
+   "id": "B-10A-INFO",
+   "lessons": [
+    "10A-INFO-G1",
+    "10A-INFO-G2"
+   ]
+  },
+  {
+   "id": "B-10A-TIC",
+   "lessons": [
+    "10A-TIC-G1",
+    "10A-TIC-G2"
+   ]
+  },
+  {
+   "id": "B-10B-L2",
+   "lessons": [
+    "10B-FR",
+    "10B-DE"
+   ]
+  },
+  {
+   "id": "B-10B-TIC",
+   "lessons": [
+    "10B-TIC-G1",
+    "10B-TIC-G2"
+   ]
+  },
+  {
+   "id": "B-10C-L2",
+   "lessons": [
+    "10C-FR",
+    "10C-DE"
+   ]
+  },
+  {
+   "id": "B-10C-TIC",
+   "lessons": [
+    "10C-TIC-G1",
+    "10C-TIC-G2"
+   ]
+  },
+  {
+   "id": "B-10-REL",
+   "lessons": [
+    "10A-REL-ORT",
+    "10B-REL-ORT",
+    "10C-REL-ORT",
+    "10-REL-CAT"
+   ]
+  },
+  {
+   "id": "B-11A-L2",
+   "lessons": [
+    "11A-FR",
+    "11A-DE"
+   ]
+  },
+  {
+   "id": "B-11A-INFO",
+   "lessons": [
+    "11A-INFO-G1",
+    "11A-INFO-G2"
+   ]
+  },
+  {
+   "id": "B-11A-TIC",
+   "lessons": [
+    "11A-TIC-G1",
+    "11A-TIC-G2"
+   ]
+  },
+  {
+   "id": "B-11B-L2",
+   "lessons": [
+    "11B-FR",
+    "11B-DE"
+   ]
+  },
+  {
+   "id": "B-11B-TIC",
+   "lessons": [
+    "11B-TIC-G1",
+    "11B-TIC-G2"
+   ]
+  },
+  {
+   "id": "B-11C-L2",
+   "lessons": [
+    "11C-FR",
+    "11C-DE"
+   ]
+  },
+  {
+   "id": "B-11C-TIC",
+   "lessons": [
+    "11C-TIC-G1",
+    "11C-TIC-G2"
+   ]
+  },
+  {
+   "id": "B-11-REL",
+   "lessons": [
+    "11A-REL-ORT",
+    "11B-REL-ORT",
+    "11C-REL-ORT",
+    "11-REL-CAT"
+   ]
+  },
+  {
+   "id": "B-12A-L2",
+   "lessons": [
+    "12A-FR",
+    "12A-DE"
+   ]
+  },
+  {
+   "id": "B-12A-INFO",
+   "lessons": [
+    "12A-INFO-G1",
+    "12A-INFO-G2"
+   ]
+  },
+  {
+   "id": "B-12A-TIC",
+   "lessons": [
+    "12A-TIC-G1",
+    "12A-TIC-G2"
+   ]
+  },
+  {
+   "id": "B-12B-L2",
+   "lessons": [
+    "12B-FR",
+    "12B-DE"
+   ]
+  },
+  {
+   "id": "B-12B-TIC",
+   "lessons": [
+    "12B-TIC-G1",
+    "12B-TIC-G2"
+   ]
+  },
+  {
+   "id": "B-12C-L2",
+   "lessons": [
+    "12C-FR",
+    "12C-DE"
+   ]
+  },
+  {
+   "id": "B-12C-TIC",
+   "lessons": [
+    "12C-TIC-G1",
+    "12C-TIC-G2"
+   ]
+  },
+  {
+   "id": "B-12-REL",
+   "lessons": [
+    "12A-REL-ORT",
+    "12B-REL-ORT",
+    "12C-REL-ORT",
+    "12-REL-CAT"
+   ]
+  }
+ ],
+ "fixed": [],
+ "soft": {
+  "late_period_from": 5,
+  "hard_difficulty": 3
+ },
+ "weights": {
+  "student_gap": 10,
+  "teacher_gap": 3,
+  "same_subject_same_day": 5,
+  "day_imbalance": 1,
+  "hard_subject_late": 2
+ },
+ "substitution": {
+  "max_subs_per_day": 2
+ }
+}

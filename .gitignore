@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/
+results/
+rezultate/
+articol/
+orar-studio/
+*.pdf
+!experimente/*.pdf
+_to_delete/
