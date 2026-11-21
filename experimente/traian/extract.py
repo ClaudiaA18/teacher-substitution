@@ -82,7 +82,7 @@ def extract(path):
         if a[y0 + 20:y1 - 20, x0 + 20:x1 - 20].sum() < 150: continue
         c = im.crop((x0, y0, x1, y1))
         h = c.height
-        top = c.crop((0, 0, c.width, int(h * 0.62)))
+        top = c.crop((0, 0, c.width, int(h * 0.62))) if len(cc) == 1 and len(rr) == 1 else c.crop((0, int(h * 0.15), c.width, int(h * 0.75)))
         bot = c.crop((0, int(h * 0.55), c.width, h)) if len(cc) == 1 and len(rr) == 1 else c.crop((0, int(h * 0.45), c.width, h))
         cls = ocr(top.resize((top.width * 2, top.height * 2), Image.LANCZOS), 6)
         bb = bot.resize((bot.width * 4, bot.height * 4), Image.LANCZOS).point(lambda v: 0 if v < 170 else 255)

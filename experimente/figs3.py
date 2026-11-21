@@ -22,7 +22,7 @@ m = d.groupby(["country", "rule"])["mean_load"].mean().unstack()
 m = m.loc[order[::-1]]
 labels = [c.replace("Northern Ireland", "N. Ireland") for c in m.index]
 
-fig, ax = plt.subplots(figsize=(3.4, 2.35))
+fig, ax = plt.subplots(figsize=(2.75, 2.0))
 ax.grid(True, axis="x", color=GRID, lw=0.5)
 ax.set_axisbelow(True)
 y = range(len(m))
@@ -33,18 +33,18 @@ for rule, c, mk, lab in (("all", BLUE, "o", "colleagues cover all days"),
                          ("3", AQUA, "^", "hired from day 4")):
     ax.scatter(m[rule], list(y), color=c, marker=mk, s=16, edgecolor="white", linewidth=0.5, zorder=3, label=lab)
 ax.set_yticks(list(y))
-ax.set_yticklabels(labels)
-ax.set_xlabel("Lessons covered per teacher per year")
+ax.set_yticklabels(labels, fontsize=6.8)
+ax.set_xlabel("Lessons covered per teacher and year")
 ax.set_xlim(0, 32)
-ax.legend(frameon=False, loc="lower center", bbox_to_anchor=(0.38, 1.0), ncol=2, fontsize=6.2, handletextpad=0.2, columnspacing=0.8)
+ax.legend(frameon=False, loc="lower center", bbox_to_anchor=(0.4, 1.0), ncol=2, fontsize=6.3, handletextpad=0.2, columnspacing=0.6)
 fig.tight_layout(pad=0.3)
-fig.savefig(os.path.join(HERE, "fig_countries.pdf"))
+fig.savefig(os.path.join(HERE, "fig_countries.pdf"), bbox_inches="tight", pad_inches=0.02)
 fig.savefig(os.path.join(HERE, "fig_countries.png"), dpi=250)
 
 e = pd.DataFrame(json.load(open(os.path.join(HERE, "results_england.json"))))
 e = e[e.kind != "weights"]
 g = e.groupby(["kind", "par"])[["rec", "gini"]].agg(["mean", "sem"])
-fig, ax = plt.subplots(figsize=(3.4, 1.85))
+fig, ax = plt.subplots(figsize=(2.75, 2.0))
 ax.grid(True, color=GRID, lw=0.5)
 ax.set_axisbelow(True)
 for k, c, mk, lab in (("cpsat_l", BLUE, "o", r"CP-SAT, $\lambda$ = 0 to 5"),
@@ -53,8 +53,8 @@ for k, c, mk, lab in (("cpsat_l", BLUE, "o", r"CP-SAT, $\lambda$ = 0 to 5"),
     ax.errorbar(x[("gini", "mean")], x[("rec", "mean")], xerr=x[("gini", "sem")], yerr=x[("rec", "sem")],
                 color=c, lw=1.4, marker=mk, ms=3.5, mec="white", mew=0.6, elinewidth=0.6, capsize=1.5, label=lab)
 ax.set_xlabel("Gini coefficient of the substitution load")
-ax.set_ylabel("Recovered hours / year")
-ax.legend(frameon=False, loc="lower right", fontsize=7)
+ax.set_ylabel("Recovered lessons / year")
+ax.legend(frameon=False, loc="lower right", fontsize=6.3)
 fig.tight_layout(pad=0.3)
-fig.savefig(os.path.join(HERE, "fig_tradeoff.pdf"))
+fig.savefig(os.path.join(HERE, "fig_tradeoff.pdf"), bbox_inches="tight", pad_inches=0.02)
 fig.savefig(os.path.join(HERE, "fig_tradeoff.png"), dpi=250)

@@ -620,6 +620,26 @@
    ],
    "teacher": "T02"
   },
+  "T02-ROM-12B-0-3": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "12B",
+     "group": ""
+    }
+   ],
+   "teacher": "T02"
+  },
+  "T02-ROM-12B-0-4": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "12B",
+     "group": ""
+    }
+   ],
+   "teacher": "T02"
+  },
   "T02-ROM-12C-0-5": {
    "subject": "ROM",
    "audience": [
@@ -631,6 +651,46 @@
    "teacher": "T02"
   },
   "T02-ROM-12G-0-6": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "12G",
+     "group": ""
+    }
+   ],
+   "teacher": "T02"
+  },
+  "T02-ROM-12A-1-0": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "12A",
+     "group": ""
+    }
+   ],
+   "teacher": "T02"
+  },
+  "T02-ROM-12A-1-1": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "12A",
+     "group": ""
+    }
+   ],
+   "teacher": "T02"
+  },
+  "T02-ROM-12G-1-2": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "12G",
+     "group": ""
+    }
+   ],
+   "teacher": "T02"
+  },
+  "T02-ROM-12G-1-3": {
    "subject": "ROM",
    "audience": [
     {
@@ -850,21 +910,21 @@
    ],
    "teacher": "T04"
   },
-  "T04-ROM-9F-0-5": {
+  "T04-ROM-9E-0-5": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9F",
+     "class": "9E",
      "group": ""
     }
    ],
    "teacher": "T04"
   },
-  "T04-ROM-9F-0-6": {
+  "T04-ROM-9E-0-6": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9F",
+     "class": "9E",
      "group": ""
     }
    ],
@@ -1000,21 +1060,21 @@
    ],
    "teacher": "T05"
   },
-  "T05-ROM-9D-1-0": {
+  "T05-ROM-12D-1-0": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9D",
+     "class": "12D",
      "group": ""
     }
    ],
    "teacher": "T05"
   },
-  "T05-ROM-9D-1-1": {
+  "T05-ROM-12D-1-1": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9D",
+     "class": "12D",
      "group": ""
     }
    ],
@@ -2570,21 +2630,21 @@
    ],
    "teacher": "T29"
   },
-  "T29-BIO-9C-0-3": {
+  "T29-BIO-12C-0-3": {
    "subject": "BIO",
    "audience": [
     {
-     "class": "9C",
+     "class": "12C",
      "group": ""
     }
    ],
    "teacher": "T29"
   },
-  "T29-BIO-9C-0-4": {
+  "T29-BIO-12C-0-4": {
    "subject": "BIO",
    "audience": [
     {
-     "class": "9C",
+     "class": "12C",
      "group": ""
     }
    ],
@@ -4110,21 +4170,21 @@
    ],
    "teacher": "T53"
   },
-  "T54-EFS-9H-0-2": {
+  "T54-EFS-12H-0-2": {
    "subject": "EFS",
    "audience": [
     {
-     "class": "9H",
+     "class": "12H",
      "group": ""
     }
    ],
    "teacher": "T54"
   },
-  "T54-EFS-9H-0-3": {
+  "T54-EFS-12H-0-3": {
    "subject": "EFS",
    "audience": [
     {
-     "class": "9H",
+     "class": "12H",
      "group": ""
     }
    ],
@@ -4370,6 +4430,26 @@
    ],
    "teacher": "T56"
   },
+  "T56-EFS-9H-1-2": {
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "9H",
+     "group": ""
+    }
+   ],
+   "teacher": "T56"
+  },
+  "T56-EFS-9H-1-3": {
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "9H",
+     "group": ""
+    }
+   ],
+   "teacher": "T56"
+  },
   "T01-ROM-10A-2-0": {
    "subject": "ROM",
    "audience": [
@@ -4440,21 +4520,21 @@
    ],
    "teacher": "T01"
   },
-  "T02-ROM-9C-2-1": {
+  "T02-ROM-12C-2-1": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9C",
+     "class": "12C",
      "group": ""
     }
    ],
    "teacher": "T02"
   },
-  "T02-ROM-9C-2-2": {
+  "T02-ROM-12C-2-2": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9C",
+     "class": "12C",
      "group": ""
     }
    ],
@@ -4580,6 +4660,26 @@
    ],
    "teacher": "T04"
   },
+  "T04-ROM-11E-2-2": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "11E",
+     "group": ""
+    }
+   ],
+   "teacher": "T04"
+  },
+  "T04-ROM-11E-2-3": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "11E",
+     "group": ""
+    }
+   ],
+   "teacher": "T04"
+  },
   "T04-ROM-9E-2-4": {
    "subject": "ROM",
    "audience": [
@@ -4610,21 +4710,21 @@
    ],
    "teacher": "T04"
   },
-  "T05-ROM-9E-2-0": {
+  "T05-ROM-9F-2-0": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9E",
+     "class": "9F",
      "group": ""
     }
    ],
    "teacher": "T05"
   },
-  "T05-ROM-9E-2-1": {
+  "T05-ROM-9F-2-1": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9E",
+     "class": "9F",
      "group": ""
     }
    ],
@@ -4690,21 +4790,21 @@
    ],
    "teacher": "T06"
   },
-  "T06-ROM-9F-2-3": {
+  "T06-ROM-12F-2-3": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9F",
+     "class": "12F",
      "group": ""
     }
    ],
    "teacher": "T06"
   },
-  "T06-ROM-9F-2-4": {
+  "T06-ROM-12F-2-4": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9F",
+     "class": "12F",
      "group": ""
     }
    ],
@@ -4721,6 +4821,26 @@
    "teacher": "T06"
   },
   "T06-ROM-11D-3-0": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "11D",
+     "group": ""
+    }
+   ],
+   "teacher": "T06"
+  },
+  "T06-ROM-11D-3-1": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "11D",
+     "group": ""
+    }
+   ],
+   "teacher": "T06"
+  },
+  "T06-ROM-11D-3-2": {
    "subject": "ROM",
    "audience": [
     {
@@ -5290,6 +5410,26 @@
    ],
    "teacher": "T19"
   },
+  "T19-MAT-12A-3-2": {
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "12A",
+     "group": ""
+    }
+   ],
+   "teacher": "T19"
+  },
+  "T19-MAT-12A-3-3": {
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "12A",
+     "group": ""
+    }
+   ],
+   "teacher": "T19"
+  },
   "T19-MAT-12B-3-4": {
    "subject": "MAT",
    "audience": [
@@ -5409,6 +5549,26 @@
     }
    ],
    "teacher": "T20"
+  },
+  "T21-MAT-9B-2-0": {
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "9B",
+     "group": ""
+    }
+   ],
+   "teacher": "T21"
+  },
+  "T21-MAT-9B-2-1": {
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "9B",
+     "group": ""
+    }
+   ],
+   "teacher": "T21"
   },
   "T21-MAT-11F-2-2": {
    "subject": "MAT",
@@ -7280,6 +7440,26 @@
    ],
    "teacher": "T49"
   },
+  "T49-TIC-9B-3-0": {
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "9B",
+     "group": ""
+    }
+   ],
+   "teacher": "T49"
+  },
+  "T49-TIC-9B-3-1": {
+   "subject": "TIC",
+   "audience": [
+    {
+     "class": "9B",
+     "group": ""
+    }
+   ],
+   "teacher": "T49"
+  },
   "T49-TIC-11B-3-2": {
    "subject": "TIC",
    "audience": [
@@ -7400,21 +7580,61 @@
    ],
    "teacher": "T51"
   },
-  "T51-INFO-9A-3-0": {
+  "T51-INFO-11A-2-2": {
    "subject": "INFO",
    "audience": [
     {
-     "class": "9A",
+     "class": "11A",
      "group": ""
     }
    ],
    "teacher": "T51"
   },
-  "T51-INFO-9A-3-1": {
+  "T51-INFO-11A-2-3": {
    "subject": "INFO",
    "audience": [
     {
-     "class": "9A",
+     "class": "11A",
+     "group": ""
+    }
+   ],
+   "teacher": "T51"
+  },
+  "T51-INFO-12A-2-4": {
+   "subject": "INFO",
+   "audience": [
+    {
+     "class": "12A",
+     "group": ""
+    }
+   ],
+   "teacher": "T51"
+  },
+  "T51-INFO-12A-2-5": {
+   "subject": "INFO",
+   "audience": [
+    {
+     "class": "12A",
+     "group": ""
+    }
+   ],
+   "teacher": "T51"
+  },
+  "T51-INFO-12A-3-0": {
+   "subject": "INFO",
+   "audience": [
+    {
+     "class": "12A",
+     "group": ""
+    }
+   ],
+   "teacher": "T51"
+  },
+  "T51-INFO-12A-3-1": {
+   "subject": "INFO",
+   "audience": [
+    {
+     "class": "12A",
      "group": ""
     }
    ],
@@ -7758,21 +7978,41 @@
    ],
    "teacher": "T54"
   },
-  "T54-EFS-9H-3-4": {
+  "T54-EFS-11H-3-2": {
    "subject": "EFS",
    "audience": [
     {
-     "class": "9H",
+     "class": "11H",
      "group": ""
     }
    ],
    "teacher": "T54"
   },
-  "T54-EFS-9H-3-5": {
+  "T54-EFS-11H-3-3": {
    "subject": "EFS",
    "audience": [
     {
-     "class": "9H",
+     "class": "11H",
+     "group": ""
+    }
+   ],
+   "teacher": "T54"
+  },
+  "T54-EFS-12H-3-4": {
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "12H",
+     "group": ""
+    }
+   ],
+   "teacher": "T54"
+  },
+  "T54-EFS-12H-3-5": {
+   "subject": "EFS",
+   "audience": [
+    {
+     "class": "12H",
      "group": ""
     }
    ],
@@ -8018,6 +8258,46 @@
    ],
    "teacher": "T02"
   },
+  "T02-ROM-9D-4-1": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "9D",
+     "group": ""
+    }
+   ],
+   "teacher": "T02"
+  },
+  "T02-ROM-9D-4-2": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "9D",
+     "group": ""
+    }
+   ],
+   "teacher": "T02"
+  },
+  "T02-ROM-9B-4-3": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "9B",
+     "group": ""
+    }
+   ],
+   "teacher": "T02"
+  },
+  "T02-ROM-9B-4-4": {
+   "subject": "ROM",
+   "audience": [
+    {
+     "class": "9B",
+     "group": ""
+    }
+   ],
+   "teacher": "T02"
+  },
   "T02-ROM-12A-4-5": {
    "subject": "ROM",
    "audience": [
@@ -8108,21 +8388,21 @@
    ],
    "teacher": "T04"
   },
-  "T04-ROM-9F-4-1": {
+  "T04-ROM-12E-4-1": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9F",
+     "class": "12E",
      "group": ""
     }
    ],
    "teacher": "T04"
   },
-  "T04-ROM-9F-4-2": {
+  "T04-ROM-12E-4-2": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9F",
+     "class": "12E",
      "group": ""
     }
    ],
@@ -8238,21 +8518,21 @@
    ],
    "teacher": "T06"
   },
-  "T06-ROM-9H-4-2": {
+  "T06-ROM-12H-4-2": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9H",
+     "class": "12H",
      "group": ""
     }
    ],
    "teacher": "T06"
   },
-  "T06-ROM-9H-4-3": {
+  "T06-ROM-12H-4-3": {
    "subject": "ROM",
    "audience": [
     {
-     "class": "9H",
+     "class": "12H",
      "group": ""
     }
    ],
@@ -8963,6 +9243,26 @@
    "audience": [
     {
      "class": "11C",
+     "group": ""
+    }
+   ],
+   "teacher": "T22"
+  },
+  "T22-MAT-11A-4-2": {
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "11A",
+     "group": ""
+    }
+   ],
+   "teacher": "T22"
+  },
+  "T22-MAT-11A-4-3": {
+   "subject": "MAT",
+   "audience": [
+    {
+     "class": "11A",
      "group": ""
     }
    ],
@@ -9737,6 +10037,18 @@
   {
    "teacher": "T02",
    "day": 0,
+   "period": 3,
+   "lesson": "T02-ROM-12B-0-3"
+  },
+  {
+   "teacher": "T02",
+   "day": 0,
+   "period": 4,
+   "lesson": "T02-ROM-12B-0-4"
+  },
+  {
+   "teacher": "T02",
+   "day": 0,
    "period": 5,
    "lesson": "T02-ROM-12C-0-5"
   },
@@ -9745,6 +10057,30 @@
    "day": 0,
    "period": 6,
    "lesson": "T02-ROM-12G-0-6"
+  },
+  {
+   "teacher": "T02",
+   "day": 1,
+   "period": 0,
+   "lesson": "T02-ROM-12A-1-0"
+  },
+  {
+   "teacher": "T02",
+   "day": 1,
+   "period": 1,
+   "lesson": "T02-ROM-12A-1-1"
+  },
+  {
+   "teacher": "T02",
+   "day": 1,
+   "period": 2,
+   "lesson": "T02-ROM-12G-1-2"
+  },
+  {
+   "teacher": "T02",
+   "day": 1,
+   "period": 3,
+   "lesson": "T02-ROM-12G-1-3"
   },
   {
    "teacher": "T02",
@@ -9876,13 +10212,13 @@
    "teacher": "T04",
    "day": 0,
    "period": 5,
-   "lesson": "T04-ROM-9F-0-5"
+   "lesson": "T04-ROM-9E-0-5"
   },
   {
    "teacher": "T04",
    "day": 0,
    "period": 6,
-   "lesson": "T04-ROM-9F-0-6"
+   "lesson": "T04-ROM-9E-0-6"
   },
   {
    "teacher": "T04",
@@ -9966,13 +10302,13 @@
    "teacher": "T05",
    "day": 1,
    "period": 0,
-   "lesson": "T05-ROM-9D-1-0"
+   "lesson": "T05-ROM-12D-1-0"
   },
   {
    "teacher": "T05",
    "day": 1,
    "period": 1,
-   "lesson": "T05-ROM-9D-1-1"
+   "lesson": "T05-ROM-12D-1-1"
   },
   {
    "teacher": "T05",
@@ -10908,13 +11244,13 @@
    "teacher": "T29",
    "day": 0,
    "period": 3,
-   "lesson": "T29-BIO-9C-0-3"
+   "lesson": "T29-BIO-12C-0-3"
   },
   {
    "teacher": "T29",
    "day": 0,
    "period": 4,
-   "lesson": "T29-BIO-9C-0-4"
+   "lesson": "T29-BIO-12C-0-4"
   },
   {
    "teacher": "T29",
@@ -11832,13 +12168,13 @@
    "teacher": "T54",
    "day": 0,
    "period": 2,
-   "lesson": "T54-EFS-9H-0-2"
+   "lesson": "T54-EFS-12H-0-2"
   },
   {
    "teacher": "T54",
    "day": 0,
    "period": 3,
-   "lesson": "T54-EFS-9H-0-3"
+   "lesson": "T54-EFS-12H-0-3"
   },
   {
    "teacher": "T54",
@@ -11985,6 +12321,18 @@
    "lesson": "T56-EFS-10B-1-1"
   },
   {
+   "teacher": "T56",
+   "day": 1,
+   "period": 2,
+   "lesson": "T56-EFS-9H-1-2"
+  },
+  {
+   "teacher": "T56",
+   "day": 1,
+   "period": 3,
+   "lesson": "T56-EFS-9H-1-3"
+  },
+  {
    "teacher": "T01",
    "day": 2,
    "period": 0,
@@ -12030,13 +12378,13 @@
    "teacher": "T02",
    "day": 2,
    "period": 1,
-   "lesson": "T02-ROM-9C-2-1"
+   "lesson": "T02-ROM-12C-2-1"
   },
   {
    "teacher": "T02",
    "day": 2,
    "period": 2,
-   "lesson": "T02-ROM-9C-2-2"
+   "lesson": "T02-ROM-12C-2-2"
   },
   {
    "teacher": "T02",
@@ -12113,6 +12461,18 @@
   {
    "teacher": "T04",
    "day": 2,
+   "period": 2,
+   "lesson": "T04-ROM-11E-2-2"
+  },
+  {
+   "teacher": "T04",
+   "day": 2,
+   "period": 3,
+   "lesson": "T04-ROM-11E-2-3"
+  },
+  {
+   "teacher": "T04",
+   "day": 2,
    "period": 4,
    "lesson": "T04-ROM-9E-2-4"
   },
@@ -12132,13 +12492,13 @@
    "teacher": "T05",
    "day": 2,
    "period": 0,
-   "lesson": "T05-ROM-9E-2-0"
+   "lesson": "T05-ROM-9F-2-0"
   },
   {
    "teacher": "T05",
    "day": 2,
    "period": 1,
-   "lesson": "T05-ROM-9E-2-1"
+   "lesson": "T05-ROM-9F-2-1"
   },
   {
    "teacher": "T05",
@@ -12180,13 +12540,13 @@
    "teacher": "T06",
    "day": 2,
    "period": 3,
-   "lesson": "T06-ROM-9F-2-3"
+   "lesson": "T06-ROM-12F-2-3"
   },
   {
    "teacher": "T06",
    "day": 2,
    "period": 4,
-   "lesson": "T06-ROM-9F-2-4"
+   "lesson": "T06-ROM-12F-2-4"
   },
   {
    "teacher": "T06",
@@ -12199,6 +12559,18 @@
    "day": 3,
    "period": 0,
    "lesson": "T06-ROM-11D-3-0"
+  },
+  {
+   "teacher": "T06",
+   "day": 3,
+   "period": 1,
+   "lesson": "T06-ROM-11D-3-1"
+  },
+  {
+   "teacher": "T06",
+   "day": 3,
+   "period": 2,
+   "lesson": "T06-ROM-11D-3-2"
   },
   {
    "teacher": "T06",
@@ -12539,6 +12911,18 @@
   {
    "teacher": "T19",
    "day": 3,
+   "period": 2,
+   "lesson": "T19-MAT-12A-3-2"
+  },
+  {
+   "teacher": "T19",
+   "day": 3,
+   "period": 3,
+   "lesson": "T19-MAT-12A-3-3"
+  },
+  {
+   "teacher": "T19",
+   "day": 3,
    "period": 4,
    "lesson": "T19-MAT-12B-3-4"
   },
@@ -12607,6 +12991,18 @@
    "day": 3,
    "period": 5,
    "lesson": "T20-DIR-9A-3-5"
+  },
+  {
+   "teacher": "T21",
+   "day": 2,
+   "period": 0,
+   "lesson": "T21-MAT-9B-2-0"
+  },
+  {
+   "teacher": "T21",
+   "day": 2,
+   "period": 1,
+   "lesson": "T21-MAT-9B-2-1"
   },
   {
    "teacher": "T21",
@@ -13733,6 +14129,18 @@
   {
    "teacher": "T49",
    "day": 3,
+   "period": 0,
+   "lesson": "T49-TIC-9B-3-0"
+  },
+  {
+   "teacher": "T49",
+   "day": 3,
+   "period": 1,
+   "lesson": "T49-TIC-9B-3-1"
+  },
+  {
+   "teacher": "T49",
+   "day": 3,
    "period": 2,
    "lesson": "T49-TIC-11B-3-2"
   },
@@ -13804,15 +14212,39 @@
   },
   {
    "teacher": "T51",
+   "day": 2,
+   "period": 2,
+   "lesson": "T51-INFO-11A-2-2"
+  },
+  {
+   "teacher": "T51",
+   "day": 2,
+   "period": 3,
+   "lesson": "T51-INFO-11A-2-3"
+  },
+  {
+   "teacher": "T51",
+   "day": 2,
+   "period": 4,
+   "lesson": "T51-INFO-12A-2-4"
+  },
+  {
+   "teacher": "T51",
+   "day": 2,
+   "period": 5,
+   "lesson": "T51-INFO-12A-2-5"
+  },
+  {
+   "teacher": "T51",
    "day": 3,
    "period": 0,
-   "lesson": "T51-INFO-9A-3-0"
+   "lesson": "T51-INFO-12A-3-0"
   },
   {
    "teacher": "T51",
    "day": 3,
    "period": 1,
-   "lesson": "T51-INFO-9A-3-1"
+   "lesson": "T51-INFO-12A-3-1"
   },
   {
    "teacher": "T51",
@@ -14015,14 +14447,26 @@
   {
    "teacher": "T54",
    "day": 3,
+   "period": 2,
+   "lesson": "T54-EFS-11H-3-2"
+  },
+  {
+   "teacher": "T54",
+   "day": 3,
+   "period": 3,
+   "lesson": "T54-EFS-11H-3-3"
+  },
+  {
+   "teacher": "T54",
+   "day": 3,
    "period": 4,
-   "lesson": "T54-EFS-9H-3-4"
+   "lesson": "T54-EFS-12H-3-4"
   },
   {
    "teacher": "T54",
    "day": 3,
    "period": 5,
-   "lesson": "T54-EFS-9H-3-5"
+   "lesson": "T54-EFS-12H-3-5"
   },
   {
    "teacher": "T55",
@@ -14171,6 +14615,30 @@
   {
    "teacher": "T02",
    "day": 4,
+   "period": 1,
+   "lesson": "T02-ROM-9D-4-1"
+  },
+  {
+   "teacher": "T02",
+   "day": 4,
+   "period": 2,
+   "lesson": "T02-ROM-9D-4-2"
+  },
+  {
+   "teacher": "T02",
+   "day": 4,
+   "period": 3,
+   "lesson": "T02-ROM-9B-4-3"
+  },
+  {
+   "teacher": "T02",
+   "day": 4,
+   "period": 4,
+   "lesson": "T02-ROM-9B-4-4"
+  },
+  {
+   "teacher": "T02",
+   "day": 4,
    "period": 5,
    "lesson": "T02-ROM-12A-4-5"
   },
@@ -14226,13 +14694,13 @@
    "teacher": "T04",
    "day": 4,
    "period": 1,
-   "lesson": "T04-ROM-9F-4-1"
+   "lesson": "T04-ROM-12E-4-1"
   },
   {
    "teacher": "T04",
    "day": 4,
    "period": 2,
-   "lesson": "T04-ROM-9F-4-2"
+   "lesson": "T04-ROM-12E-4-2"
   },
   {
    "teacher": "T04",
@@ -14304,13 +14772,13 @@
    "teacher": "T06",
    "day": 4,
    "period": 2,
-   "lesson": "T06-ROM-9H-4-2"
+   "lesson": "T06-ROM-12H-4-2"
   },
   {
    "teacher": "T06",
    "day": 4,
    "period": 3,
-   "lesson": "T06-ROM-9H-4-3"
+   "lesson": "T06-ROM-12H-4-3"
   },
   {
    "teacher": "T06",
@@ -14737,6 +15205,18 @@
    "day": 4,
    "period": 1,
    "lesson": "T22-MAT-11C-4-1"
+  },
+  {
+   "teacher": "T22",
+   "day": 4,
+   "period": 2,
+   "lesson": "T22-MAT-11A-4-2"
+  },
+  {
+   "teacher": "T22",
+   "day": 4,
+   "period": 3,
+   "lesson": "T22-MAT-11A-4-3"
   },
   {
    "teacher": "T22",

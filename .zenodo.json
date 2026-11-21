@@ -1,16 +1,20 @@
 {
-  "title": "Every Lesson Covered, but by Whom? Code and data for fair teacher substitution in high schools",
+  "title": "Daily Substitute Teacher Assignment in High Schools: A CP-SAT Model Evaluated on Absence Scenarios from Seven European Education Systems (code and data)",
   "upload_type": "software",
-  "description": "Code, instances and raw results for the paper 'Every Lesson Covered, but by Whom? Fair Teacher Substitution in High Schools with Constraint Programming'. Includes a CP-SAT model for high-school timetables with parallel group blocks, three methods for the daily assignment of substitute teachers, absence scenarios calibrated on open data from England and adapted to Romanian rules, and a Streamlit application.",
+  "description": "Code, instances and raw results for the paper 'Daily Substitute Teacher Assignment in High Schools: A CP-SAT Model Evaluated on Absence Scenarios from Seven European Education Systems'. Includes a CP-SAT model for high-school timetables with parallel group blocks, three methods for the daily assignment of substitute teachers (greedy, Hungarian, CP-SAT with a fairness term), absence scenarios calibrated on official statistics from England, Scotland, Wales, Northern Ireland, the Netherlands, Denmark and France, two cover rules (collegial and Romanian), an anonymised instance built from the public timetable of Liceul Teoretic Traian Bucharest (2024/25), robustness and timing experiments, and a Streamlit application.",
   "creators": [
+    {
+      "name": "Mihai, Petruța",
+      "affiliation": "National University of Science and Technology POLITEHNICA Bucharest",
+      "orcid": "0009-0003-9172-3027"
+    },
     {
       "name": "Gîrniță, Alexandra-Claudia",
       "affiliation": "National University of Science and Technology POLITEHNICA Bucharest"
     },
     {
-      "name": "Mihai, Petruța",
-      "affiliation": "National University of Science and Technology POLITEHNICA Bucharest",
-      "orcid": "0009-0003-9172-3027"
+      "name": "Militaru, Gheorghe",
+      "affiliation": "National University of Science and Technology POLITEHNICA Bucharest"
     }
   ],
   "license": "MIT",
